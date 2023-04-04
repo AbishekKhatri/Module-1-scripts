@@ -1,0 +1,9 @@
+# ask the user for input
+string = input("Please enter a string: ")
+
+# extract the lowercase letters and remove the spaces
+lowercase = "".join([char for char in string if char.islower()])
+uppercase = "".join([char for char in string if char.isupper()])
+
+# print the result
+print(lowercase + uppercase)
