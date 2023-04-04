@@ -1,0 +1,5 @@
+# ask the user for input
+string = input("Please enter a string: ")
+
+# print the string in reverse order
+print(string[::-1])
